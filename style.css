@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: rgb(9, 4, 4);
 	color: white;
 	font-family: "游明朝", serif;
 	width: 800px;
@@ -36,7 +36,7 @@ li>a {
 	position: absolute;
 }
 
-h2 {
+h3 {
 	border-bottom: 3px solid white;
 	font-family: "HGP明朝E", serif;
 }
