@@ -1,7 +1,7 @@
 body {
 	background-color: rgb(9, 4, 4);
 	color: white;
-	font-family: "游明朝", serif;
+	font-family: "游ゴシック", sans-serif;
 	width: 800px;
 	margin: auto;
 	line-height: 200%;
@@ -36,9 +36,12 @@ li>a {
 	position: absolute;
 }
 
+h2 {
+	font-family: "游ゴシック", sans-serif;
+}
+
 h3 {
 	border-bottom: 3px solid white;
-	font-family: "HGP明朝E", serif;
 }
 
 em {
