@@ -36,12 +36,16 @@ li>a {
 	position: absolute;
 }
 
-h2 {
-	font-family: "游ゴシック", sans-serif;
+h1, h2 {
+	font-family: "游明朝", serif;
 }
 
-h3 {
-	border-bottom: 3px solid white;
+p {
+	padding-left: 2em;
+}
+
+p.images {
+	padding-left: 0;
 }
 
 em {
