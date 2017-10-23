@@ -1,23 +1,19 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 body {
-	background-color: rgb(9, 4, 4);
+	background-color: rgb(9,4,4);
 	color: white;
-	font-family: "游ゴシック", sans-serif;
-	width: 800px;
-	margin: auto;
+	font-family: "游明朝", "HGP明朝E", serif;
 	line-height: 200%;
 }
-
-a {
-	text-decoration: none;
+header, main {
+	width: 1024px;
+	margin: auto;
 }
-
-a:visited {
-	color: lightgray;
+header {
+	text-align: center;
 }
-
-li {
+header>ul>li {
 	display: inline-block;
 	width: 130px;
 	height: 45px;
@@ -25,34 +21,47 @@ li {
 	text-align: center;
 	line-height: 45px;
 }
-
-li:hover {
-	background-image: url(menu-background-hover.png)
-}
-
-li>a {
+header>ul>li>a {
 	display: block;
+	color: white;
 }
-
-#overCover {
-	position: absolute;
+header>ul>li>a:visited {
+	display: block;
+	color: lightgray;
 }
-
-h1, h2 {
-	font-family: "游明朝", serif;
+header>ul>li>a:hover {
+	background-image: url(menu-background-hover.png);
 }
-
+h2 {
+	font-size: xx-large;
+	border-bottom: solid 2px silver;
+}
+h3 {
+	font-size: x-large;
+}
+h3:not(:first-of-type) {
+	margin-top:5em;
+}
+h3.explanation {
+	margin-top:2em;
+}
 p {
 	padding-left: 2em;
-/*	width: 20em;*/
 }
-
-p.images {
-	padding-left: 0;
-}
-
 em {
 	font-style: normal;
 	font-weight: 900;
 	color: rgb(100%, 40%, 40%);
+}
+footer {
+	clear: both;
+	background-color: brown;
+}
+footer>p {
+	width: 1024px;
+	margin: 0px auto;
+}
+footer>p>span::before {
+	content: "■";
+	margin-left: 2em;
 }
