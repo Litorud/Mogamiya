@@ -1,6 +1,7 @@
 ﻿@charset "UTF-8";
 
 body {
+	width: 1024px;
 	background-color: rgb(9,4,4);
 	color: white;
 	font-family: "游明朝", "HGP明朝E", serif;
@@ -54,14 +55,18 @@ em {
 	color: rgb(100%, 40%, 40%);
 }
 footer {
+	width: 1024px;
 	clear: both;
 	background-color: brown;
 }
 footer>p {
-	width: 1024px;
 	margin: 0px auto;
 }
-footer>p>span::before {
+footer.footer_info>span {
+	background-color: black;
+	width: 100%;
+}
+footer>.footer_info>span::before {
 	content: "■";
 	margin-left: 2em;
 }
